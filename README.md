@@ -33,14 +33,14 @@ Now when all of the processing is complete, you can see the results.
 	
 	Both options give a JSON representation of a Node - an object type created to represent tables(views) and their links. VertexNode is another type used only for finding a path from one table to another.
 ## Current limitations
-    DataModelActualizer can't: 
-    * Fetch table links from SQL queries written as a text variable (ExecuteImmediate).
-    * Fetch table links from View's SQL code.
-    
-    Both limitations will be fixed in future versions.
+DataModelActualizer can't: 
+* Fetch table links from SQL queries written as a text variable (ExecuteImmediate).
+* Fetch table links from View's SQL code.
+
+Both limitations will be fixed in future versions.
     
 ## Author
-    Demid Zhukov - 1demidz3@gmail.com
+	Demid Zhukov - 1demidz3@gmail.com
     
 ## License
 This project is licensed under the Apache License Version 2.0 - see the [LICENSE.md](LICENSE.md) file for details 
