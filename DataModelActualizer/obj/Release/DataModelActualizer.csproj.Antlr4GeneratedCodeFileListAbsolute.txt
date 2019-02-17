@@ -1,0 +1,6 @@
+C:\Users\demid.zhukov\Documents\GitHub\DBMOAtestUpload2\DataModelActualizer\obj\Release\PlSqlLexer.cs
+C:\Users\demid.zhukov\Documents\GitHub\DBMOAtestUpload2\DataModelActualizer\obj\Release\PlSqlParser.cs
+C:\Users\demid.zhukov\Documents\GitHub\DBMOAtestUpload2\DataModelActualizer\obj\Release\PlSqlParserListener.cs
+C:\Users\demid.zhukov\Documents\GitHub\DBMOAtestUpload2\DataModelActualizer\obj\Release\PlSqlParserBaseListener.cs
+C:\Users\demid.zhukov\Documents\GitHub\DBMOAtestUpload2\DataModelActualizer\obj\Release\PlSqlParserVisitor.cs
+C:\Users\demid.zhukov\Documents\GitHub\DBMOAtestUpload2\DataModelActualizer\obj\Release\PlSqlParserBaseVisitor.cs
