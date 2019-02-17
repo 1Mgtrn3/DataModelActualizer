@@ -43,7 +43,7 @@ Both limitations will be fixed in future versions.
 	Demid Zhukov - 1demidz3@gmail.com
     
 ## License
-This project is licensed under the Apache License Version 2.0 - see the [LICENSE.md](LICENSE.md) file for details 
+This project is licensed under the Apache License Version 2.0 - see the [LICENSE](LICENSE) file for details 
 
 
 
