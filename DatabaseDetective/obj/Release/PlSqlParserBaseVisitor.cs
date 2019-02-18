@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// Generated from C:\Users\demid.zhukov\Documents\GitHub\DataModelActualizer\DatabaseDetective\PlSqlParser.g4 by ANTLR 4.6.5
+// Generated from C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\PlSqlParser.g4 by ANTLR 4.6.5
 
 // Unreachable code detected
 #pragma warning disable 0162

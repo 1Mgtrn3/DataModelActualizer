@@ -285,7 +285,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btFindPath);
             this.Name = "MainWindow";
-            this.Text = "DataModelActualizer";
+            this.Text = "Database Detective";
             this.Load += new System.EventHandler(this.MainWindow_Load);
             this.Resize += new System.EventHandler(this.MainWindow_Resize);
             this.groupBox1.ResumeLayout(false);

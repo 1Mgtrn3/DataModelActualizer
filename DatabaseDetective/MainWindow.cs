@@ -317,7 +317,7 @@ namespace DatabaseDetective
                 btDownloadPck.Enabled = true;
                 btScanPackages.Enabled = true;
                 btGetFK.Enabled = true;
-                this.Text = "DataModelActualizer";
+                this.Text = "Database Detective";
                 
             }
 

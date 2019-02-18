@@ -1,6 +1,6 @@
-C:\Users\demid.zhukov\Documents\GitHub\DataModelActualizer\DatabaseDetective\obj\Release\PlSqlLexer.cs
-C:\Users\demid.zhukov\Documents\GitHub\DataModelActualizer\DatabaseDetective\obj\Release\PlSqlParser.cs
-C:\Users\demid.zhukov\Documents\GitHub\DataModelActualizer\DatabaseDetective\obj\Release\PlSqlParserListener.cs
-C:\Users\demid.zhukov\Documents\GitHub\DataModelActualizer\DatabaseDetective\obj\Release\PlSqlParserBaseListener.cs
-C:\Users\demid.zhukov\Documents\GitHub\DataModelActualizer\DatabaseDetective\obj\Release\PlSqlParserVisitor.cs
-C:\Users\demid.zhukov\Documents\GitHub\DataModelActualizer\DatabaseDetective\obj\Release\PlSqlParserBaseVisitor.cs
+C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\obj\Release\PlSqlLexer.cs
+C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\obj\Release\PlSqlParser.cs
+C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\obj\Release\PlSqlParserListener.cs
+C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\obj\Release\PlSqlParserBaseListener.cs
+C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\obj\Release\PlSqlParserVisitor.cs
+C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\obj\Release\PlSqlParserBaseVisitor.cs

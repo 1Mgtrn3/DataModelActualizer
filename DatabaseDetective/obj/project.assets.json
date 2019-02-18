@@ -205,11 +205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\demid.zhukov\\Documents\\GitHub\\DataModelActualizer\\DataModelActualizer\\DatabaseDetective.csproj",
+      "projectUniqueName": "C:\\Users\\demid.zhukov\\Documents\\GitHub\\Database-Detective\\DatabaseDetective\\DatabaseDetective.csproj",
       "projectName": "DatabaseDetective",
-      "projectPath": "C:\\Users\\demid.zhukov\\Documents\\GitHub\\DataModelActualizer\\DataModelActualizer\\DatabaseDetective.csproj",
+      "projectPath": "C:\\Users\\demid.zhukov\\Documents\\GitHub\\Database-Detective\\DatabaseDetective\\DatabaseDetective.csproj",
       "packagesPath": "C:\\Users\\demid.zhukov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\demid.zhukov\\Documents\\GitHub\\DataModelActualizer\\DataModelActualizer\\obj\\",
+      "outputPath": "C:\\Users\\demid.zhukov\\Documents\\GitHub\\Database-Detective\\DatabaseDetective\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
