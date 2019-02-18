@@ -83,7 +83,7 @@ namespace DatabaseDetective
             SQLiteCommand command = new SQLiteCommand(sql, m_dbConnection);
             command.ExecuteNonQuery();
 
-            sql = "CREATE TABLE 'Links' ([toText] nvarchar (128) NOT NULL PRIMARY KEY, [id2] int NOT NULL, [id1] int NOT NULL, [firstTable] nvarchar, [secondTable] nvarchar, [firstTableField] nvarchar, [secondTableField] nvarchar)";
+            sql = "CREATE TABLE 'Links' ([toText] nvarchar (128) NOT NULL PRIMARY KEY, [id2] int NOT NULL, [id1] int NOT NULL, [firstTable] nvarchar, [secondTable] nvarchar, [firstTableField] nvarchar, [secondTableField] nvarchar, [popularity] int NOT NULL)";
 
             command = new SQLiteCommand(sql, m_dbConnection);
             command.ExecuteNonQuery();

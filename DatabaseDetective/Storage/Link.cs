@@ -17,6 +17,7 @@ namespace DatabaseDetective
         public string secondTable { get; set; }
         public string firstTableField { get; set; }
         public string secondTableField { get; set; }
+        public int popularity { get; set; }
 
         public Link()
         {
@@ -29,6 +30,7 @@ namespace DatabaseDetective
             secondTable = table2;
             firstTableField = field1;
             secondTableField = field2;
+            popularity = 0;
         }
 
         public Link(string exp)
@@ -71,6 +73,7 @@ namespace DatabaseDetective
             //{ link.secondTable = tmpspace[3]; }
 
             secondTableField = tmpspace[4].Substring(1);
+            popularity = 0;
         }
 
         public void Format()

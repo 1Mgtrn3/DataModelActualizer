@@ -1,2 +1,5 @@
 .vs/
 *.lock
+*.bdy
+*.cnv
+DatabaseDetective/bin/Release/DB/objectsStorage.db

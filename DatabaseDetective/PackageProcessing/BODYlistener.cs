@@ -19,16 +19,14 @@ namespace DatabaseDetective
 
         
 
-        public List<string> pEnterStatement { get; set; }
-        public List<string> pExitStatement { get; set; }
+        
 
         public List<Join> joinsList { get; set; }
         public BODYlistener()
         {
             joinsList = new List<Join>();
 
-            this.pEnterStatement = new List<string>();
-            this.pExitStatement = new List<string>();
+           
             relationalExprConditions = new List<string>();
             
             
@@ -56,16 +54,7 @@ namespace DatabaseDetective
         /// <para>The default implementation does nothing.</para>
         /// </summary>
         /// <param name="context">The parse tree.</param>
-        public override void ExitPackage_obj_body(PlSqlParser.Package_obj_bodyContext context)
-        {
-
-            StringBuilder TraceString = new StringBuilder();
-
-            TraceString.Append($"context.ChildCount: {context.ChildCount} context.GetText: {context.GetText()}");
-
-            pEnterStatement.Add(TraceString.ToString());
-
-        }
+        
         private Regex regex = new Regex(@"[a-zA-Z0-9_]+[.][a-zA-Z0-9_]+[=][a-zA-Z0-9_]+[.][a-zA-Z0-9_]+");
 
         public override void EnterRelational_expression([NotNull] PlSqlParser.Relational_expressionContext context)

@@ -32,6 +32,10 @@ namespace DatabaseDetective
                     {
                         tmpDic.Add(tmpLinkText, link);
                     }
+                    else
+                    {
+                        tmpDic[tmpLinkText].popularity++;
+                    }
 
                 }
             }

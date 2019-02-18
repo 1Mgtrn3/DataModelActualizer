@@ -106,7 +106,7 @@ namespace DatabaseDetective
 
 
                     processPackage(file.FullName);
-
+                    Trace.WriteLine($"{file.Name} processing done"); 
 
                 }
             }
@@ -143,7 +143,7 @@ namespace DatabaseDetective
             walker.Walk(bListener, context1);
             #endregion
 
-            //you can start making changes form this point
+            //you can start making changes from this point
 
             var converter = new JoinLinksConverter(bListener.joinsList);
             var uniqueLinks = converter.MakeUniqueLinksList();
