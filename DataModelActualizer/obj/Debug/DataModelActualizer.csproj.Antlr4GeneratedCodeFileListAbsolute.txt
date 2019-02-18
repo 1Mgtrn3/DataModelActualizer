@@ -1,6 +1,0 @@
-C:\Users\demid.zhukov\Documents\DBpackageParser\DataModelActualizer\DataModelActualizer\obj\Debug\PlSqlLexer.cs
-C:\Users\demid.zhukov\Documents\DBpackageParser\DataModelActualizer\DataModelActualizer\obj\Debug\PlSqlParser.cs
-C:\Users\demid.zhukov\Documents\DBpackageParser\DataModelActualizer\DataModelActualizer\obj\Debug\PlSqlParserListener.cs
-C:\Users\demid.zhukov\Documents\DBpackageParser\DataModelActualizer\DataModelActualizer\obj\Debug\PlSqlParserBaseListener.cs
-C:\Users\demid.zhukov\Documents\DBpackageParser\DataModelActualizer\DataModelActualizer\obj\Debug\PlSqlParserVisitor.cs
-C:\Users\demid.zhukov\Documents\DBpackageParser\DataModelActualizer\DataModelActualizer\obj\Debug\PlSqlParserBaseVisitor.cs
