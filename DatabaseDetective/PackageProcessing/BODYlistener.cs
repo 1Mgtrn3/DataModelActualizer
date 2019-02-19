@@ -132,6 +132,7 @@ namespace DatabaseDetective
                                     join.TableCondition.Add(condition);
                                     
                                     joinsList.Add(join);
+                                    Trace.WriteLine($"Added a join with {join.InitialTable}...");
                                     
                                 }
                             }

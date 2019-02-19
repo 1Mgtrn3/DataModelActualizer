@@ -104,9 +104,9 @@ namespace DatabaseDetective
 
 
 
-
+                    Trace.WriteLine($"Start processing: {file.Name}");
                     processPackage(file.FullName);
-                    Trace.WriteLine($"{file.Name} processing done"); 
+                    
 
                 }
             }

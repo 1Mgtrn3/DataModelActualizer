@@ -53,6 +53,9 @@
             this.btN_MostPopular = new System.Windows.Forms.Button();
             this.tbN_MostPopular = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.btGetOverusedLinks = new System.Windows.Forms.Button();
+            this.tbGetOverusedLinks = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -267,7 +270,7 @@
             this.btN_MostPopular.Name = "btN_MostPopular";
             this.btN_MostPopular.Size = new System.Drawing.Size(75, 42);
             this.btN_MostPopular.TabIndex = 28;
-            this.btN_MostPopular.Text = "Get N most popular";
+            this.btN_MostPopular.Text = "Get N most popular links";
             this.btN_MostPopular.UseVisualStyleBackColor = true;
             this.btN_MostPopular.Click += new System.EventHandler(this.btN_MostPopular_Click);
             // 
@@ -287,11 +290,40 @@
             this.label6.TabIndex = 30;
             this.label6.Text = "N";
             // 
+            // btGetOverusedLinks
+            // 
+            this.btGetOverusedLinks.Location = new System.Drawing.Point(205, 111);
+            this.btGetOverusedLinks.Name = "btGetOverusedLinks";
+            this.btGetOverusedLinks.Size = new System.Drawing.Size(75, 41);
+            this.btGetOverusedLinks.TabIndex = 31;
+            this.btGetOverusedLinks.Text = "Popularity over limit";
+            this.btGetOverusedLinks.UseVisualStyleBackColor = true;
+            this.btGetOverusedLinks.Click += new System.EventHandler(this.btGetOverusedLinks_Click);
+            // 
+            // tbGetOverusedLinks
+            // 
+            this.tbGetOverusedLinks.Location = new System.Drawing.Point(304, 118);
+            this.tbGetOverusedLinks.Name = "tbGetOverusedLinks";
+            this.tbGetOverusedLinks.Size = new System.Drawing.Size(62, 20);
+            this.tbGetOverusedLinks.TabIndex = 32;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(304, 103);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(28, 13);
+            this.label7.TabIndex = 33;
+            this.label7.Text = "Limit";
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1120, 454);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.tbGetOverusedLinks);
+            this.Controls.Add(this.btGetOverusedLinks);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.tbN_MostPopular);
             this.Controls.Add(this.btN_MostPopular);
@@ -353,5 +385,8 @@
         private System.Windows.Forms.Button btN_MostPopular;
         private System.Windows.Forms.TextBox tbN_MostPopular;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btGetOverusedLinks;
+        private System.Windows.Forms.TextBox tbGetOverusedLinks;
+        private System.Windows.Forms.Label label7;
     }
 }

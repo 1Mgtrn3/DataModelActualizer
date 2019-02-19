@@ -215,13 +215,15 @@ namespace DatabaseDetective
             SetUIBlockState(block: false);
         }
 
-        private void btScanPackages_Click(object sender, EventArgs e)
+       async private void btScanPackages_Click(object sender, EventArgs e)
         {
             SetUIBlockState(block: true);
             try
             {
+                //var tracePath = ConfigurationManager.GetSection("system.diagnostics").
                 var proc = new PackageProcessor();
-                proc.startProcessing();
+                tbOutput.AppendText($"Scanning and processing started. See the progress in the log file. Hint: log file path can be found in .config\r\n");
+                await Task.Run(()=> proc.startProcessing());
                 tbOutput.AppendText($"Scanning and processing complete!\r\n");
             }
             catch (Exception ex)
@@ -275,6 +277,18 @@ namespace DatabaseDetective
 
                 tbOutput.AppendText($"\r\nException occured: {ex.Message}\r\n");
             }
+
+            SetUIBlockState(block: false);
+        }
+        private void btGetOverusedLinks_Click(object sender, EventArgs e)
+        {
+            SetUIBlockState(block: true);
+
+            var popularity = new PopularityControl();
+            var output = popularity.GetOverusedLinksJson(StringToInt(tbGetOverusedLinks.Text), Indented: true);
+            tbOutput.AppendText($"\r\nPRINTING OVERUSED LINKS, POPULARITY LIMIT= {tbGetOverusedLinks.Text}:\r\n{output}");
+            ScrollToEnd();
+
 
             SetUIBlockState(block: false);
         }

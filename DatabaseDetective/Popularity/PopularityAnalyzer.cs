@@ -17,7 +17,7 @@ namespace DatabaseDetective
             var result = new List<Link>();
             using (var storage = new StorageContext(StorageContext.constr))
             {
-                result = storage.links.Where(l => l.popularity >= limit).ToList();
+                result = storage.links.Where(l => l.popularity >= limit).OrderByDescending(l=> l.popularity).ToList();
             }
 
             return result;
