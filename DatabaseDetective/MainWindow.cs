@@ -327,6 +327,8 @@ namespace DatabaseDetective
                 btGetFK.Enabled = false;
                 btN_MostPopular.Enabled = false;
                 tbN_MostPopular.Enabled = false;
+                btGetOverusedLinks.Enabled = false;
+                tbGetOverusedLinks.Enabled = false;
                 this.Text = "Processing...";
             }
             else
@@ -355,6 +357,8 @@ namespace DatabaseDetective
                 btGetFK.Enabled = true;
                 btN_MostPopular.Enabled = true;
                 tbN_MostPopular.Enabled = true;
+                btGetOverusedLinks.Enabled = true;
+                tbGetOverusedLinks.Enabled = true;
                 this.Text = "Database Detective";
                 
             }
