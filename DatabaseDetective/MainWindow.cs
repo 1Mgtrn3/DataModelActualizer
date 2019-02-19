@@ -222,6 +222,7 @@ namespace DatabaseDetective
             {
                 var proc = new PackageProcessor();
                 proc.startProcessing();
+                tbOutput.AppendText($"Scanning and processing complete!\r\n");
             }
             catch (Exception ex)
             {
@@ -259,6 +260,25 @@ namespace DatabaseDetective
 
         }
 
+        private void btN_MostPopular_Click(object sender, EventArgs e)
+        {
+            SetUIBlockState(block: true);
+            try
+            {
+                var popularity = new PopularityControl();
+                var output = popularity.Get_N_MostPopularJson(StringToInt(tbN_MostPopular.Text), Indented: true);
+                tbOutput.AppendText($"\r\nPRINTING {tbN_MostPopular.Text} MOST POPULAR LINKS:\r\n{output}");
+                ScrollToEnd();
+            }
+            catch (Exception ex)
+            {
+
+                tbOutput.AppendText($"\r\nException occured: {ex.Message}\r\n");
+            }
+
+            SetUIBlockState(block: false);
+        }
+
         private void ScrollToEnd() {
             tbOutput.SelectionStart = tbOutput.Text.Length;
             tbOutput.ScrollToCaret();
@@ -291,6 +311,8 @@ namespace DatabaseDetective
                 btDownloadPck.Enabled = false;
                 btScanPackages.Enabled = false;
                 btGetFK.Enabled = false;
+                btN_MostPopular.Enabled = false;
+                tbN_MostPopular.Enabled = false;
                 this.Text = "Processing...";
             }
             else
@@ -317,6 +339,8 @@ namespace DatabaseDetective
                 btDownloadPck.Enabled = true;
                 btScanPackages.Enabled = true;
                 btGetFK.Enabled = true;
+                btN_MostPopular.Enabled = true;
+                tbN_MostPopular.Enabled = true;
                 this.Text = "Database Detective";
                 
             }
@@ -324,13 +348,6 @@ namespace DatabaseDetective
 
         }
 
-
-
-
-
-
-
-
-
+        
     }
 }

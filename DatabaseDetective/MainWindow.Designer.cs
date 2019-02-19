@@ -50,6 +50,9 @@
             this.btDownloadPck = new System.Windows.Forms.Button();
             this.btScanPackages = new System.Windows.Forms.Button();
             this.btGetFK = new System.Windows.Forms.Button();
+            this.btN_MostPopular = new System.Windows.Forms.Button();
+            this.tbN_MostPopular = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -109,7 +112,7 @@
             // 
             // btPrintTree
             // 
-            this.btPrintTree.Location = new System.Drawing.Point(30, 87);
+            this.btPrintTree.Location = new System.Drawing.Point(30, 71);
             this.btPrintTree.Name = "btPrintTree";
             this.btPrintTree.Size = new System.Drawing.Size(75, 23);
             this.btPrintTree.TabIndex = 6;
@@ -120,7 +123,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(129, 72);
+            this.label3.Location = new System.Drawing.Point(129, 56);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(31, 13);
             this.label3.TabIndex = 7;
@@ -128,7 +131,7 @@
             // 
             // tbTreeHead
             // 
-            this.tbTreeHead.Location = new System.Drawing.Point(129, 89);
+            this.tbTreeHead.Location = new System.Drawing.Point(129, 73);
             this.tbTreeHead.Name = "tbTreeHead";
             this.tbTreeHead.Size = new System.Drawing.Size(107, 20);
             this.tbTreeHead.TabIndex = 9;
@@ -136,7 +139,7 @@
             // 
             // tbDepth
             // 
-            this.tbDepth.Location = new System.Drawing.Point(242, 90);
+            this.tbDepth.Location = new System.Drawing.Point(242, 74);
             this.tbDepth.Name = "tbDepth";
             this.tbDepth.Size = new System.Drawing.Size(38, 20);
             this.tbDepth.TabIndex = 10;
@@ -145,7 +148,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(242, 72);
+            this.label4.Location = new System.Drawing.Point(242, 56);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(36, 13);
             this.label4.TabIndex = 11;
@@ -258,11 +261,40 @@
             this.btGetFK.UseVisualStyleBackColor = true;
             this.btGetFK.Click += new System.EventHandler(this.btGetFK_Click);
             // 
+            // btN_MostPopular
+            // 
+            this.btN_MostPopular.Location = new System.Drawing.Point(30, 110);
+            this.btN_MostPopular.Name = "btN_MostPopular";
+            this.btN_MostPopular.Size = new System.Drawing.Size(75, 42);
+            this.btN_MostPopular.TabIndex = 28;
+            this.btN_MostPopular.Text = "Get N most popular";
+            this.btN_MostPopular.UseVisualStyleBackColor = true;
+            this.btN_MostPopular.Click += new System.EventHandler(this.btN_MostPopular_Click);
+            // 
+            // tbN_MostPopular
+            // 
+            this.tbN_MostPopular.Location = new System.Drawing.Point(129, 119);
+            this.tbN_MostPopular.Name = "tbN_MostPopular";
+            this.tbN_MostPopular.Size = new System.Drawing.Size(48, 20);
+            this.tbN_MostPopular.TabIndex = 29;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(129, 103);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(15, 13);
+            this.label6.TabIndex = 30;
+            this.label6.Text = "N";
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1120, 454);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.tbN_MostPopular);
+            this.Controls.Add(this.btN_MostPopular);
             this.Controls.Add(this.btGetFK);
             this.Controls.Add(this.btScanPackages);
             this.Controls.Add(this.btDownloadPck);
@@ -318,5 +350,8 @@
         private System.Windows.Forms.Button btDownloadPck;
         private System.Windows.Forms.Button btScanPackages;
         private System.Windows.Forms.Button btGetFK;
+        private System.Windows.Forms.Button btN_MostPopular;
+        private System.Windows.Forms.TextBox tbN_MostPopular;
+        private System.Windows.Forms.Label label6;
     }
 }

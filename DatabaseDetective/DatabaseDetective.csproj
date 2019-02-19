@@ -87,6 +87,7 @@
   <ItemGroup>
     <Compile Include="ModuleControls\DBControl.cs" />
     <Compile Include="ModuleControls\GraphControl.cs" />
+    <Compile Include="ModuleControls\PopularityControl.cs" />
     <Compile Include="ModuleControls\ProcessControl.cs" />
     <Compile Include="ModuleControls\StorageControl.cs" />
     <Compile Include="obj\Release\PlSqlLexer.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="obj\Release\PlSqlParserBaseVisitor.cs" />
     <Compile Include="obj\Release\PlSqlParserListener.cs" />
     <Compile Include="obj\Release\PlSqlParserVisitor.cs" />
+    <Compile Include="Popularity\PopularityAnalyzer.cs" />
     <Compile Include="Storage\ActualDbObject.cs" />
     <Compile Include="PackageProcessing\BODYlistener.cs" />
     <Compile Include="PackageProcessing\Condition.cs" />
