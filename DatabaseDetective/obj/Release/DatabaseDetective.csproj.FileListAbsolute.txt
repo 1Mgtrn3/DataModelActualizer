@@ -5,6 +5,7 @@ C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\bin\
 C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\bin\Release\EntityFramework.dll
 C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\bin\Release\EntityFramework.SqlServer.dll
 C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\bin\Release\Newtonsoft.Json.dll
+C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\bin\Release\Oracle.DataAccess.dll
 C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\bin\Release\SQLite.CodeFirst.dll
 C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\bin\Release\System.Data.SQLite.dll
 C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\bin\Release\System.Data.SQLite.EF6.dll
