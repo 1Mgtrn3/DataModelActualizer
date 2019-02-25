@@ -16,7 +16,6 @@ C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\bin\
 C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\bin\Release\Newtonsoft.Json.xml
 C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\bin\Release\System.Data.SQLite.xml
 C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\bin\Release\System.Data.SQLite.dll.config
-C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\obj\Release\DatabaseDetective.csprojResolveAssemblyReference.cache
 C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\obj\Release\PlSqlLexer.cs
 C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\obj\Release\PlSqlParser.cs
 C:\Users\demid.zhukov\Documents\GitHub\Database-Detective\DatabaseDetective\obj\Release\PlSqlParserListener.cs

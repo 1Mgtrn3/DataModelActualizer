@@ -103,7 +103,7 @@
             this.tbPathStart.Name = "tbPathStart";
             this.tbPathStart.Size = new System.Drawing.Size(107, 20);
             this.tbPathStart.TabIndex = 4;
-            this.tbPathStart.Text = "ILCACCOUNTS";
+            this.tbPathStart.Text = "DUAL";
             // 
             // tbPathFinish
             // 
@@ -111,7 +111,7 @@
             this.tbPathFinish.Name = "tbPathFinish";
             this.tbPathFinish.Size = new System.Drawing.Size(187, 20);
             this.tbPathFinish.TabIndex = 5;
-            this.tbPathFinish.Text = "ILACSPAYERAUTHREQLOG";
+            this.tbPathFinish.Text = "HELP";
             // 
             // btPrintTree
             // 
@@ -138,7 +138,7 @@
             this.tbTreeHead.Name = "tbTreeHead";
             this.tbTreeHead.Size = new System.Drawing.Size(107, 20);
             this.tbTreeHead.TabIndex = 9;
-            this.tbTreeHead.Text = "ILCACCOUNTS";
+            this.tbTreeHead.Text = "DUAL";
             // 
             // tbDepth
             // 
@@ -146,7 +146,7 @@
             this.tbDepth.Name = "tbDepth";
             this.tbDepth.Size = new System.Drawing.Size(38, 20);
             this.tbDepth.TabIndex = 10;
-            this.tbDepth.Text = "2";
+            this.tbDepth.Text = "1";
             // 
             // label4
             // 

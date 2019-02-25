@@ -28,7 +28,7 @@ namespace DatabaseDetective
                 LinkDBFormatConverter linkConverter = new LinkDBFormatConverter(linkList, format: true);
                 //Trace.WriteLine($"linkConverter CREATED!!");
 
-
+                //Trace.WriteLine($"linkList.Count: {linkList.Count} result.count: {linkConverter.Result.Count}");
 
                 using (var storage = new StorageContext(StorageContext.constr))
                 {

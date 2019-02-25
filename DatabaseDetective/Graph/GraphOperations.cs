@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 
 namespace DatabaseDetective
@@ -18,15 +19,16 @@ namespace DatabaseDetective
 
         public  List<Node> findPath(int startItemId, int searchItemId)
         {
-            
+            //Trace.WriteLine("findPath start");
+            //Trace.WriteLine($"startItemId: {startItemId} searchItemId: {searchItemId}");
             List<Node> tmpResultList = new List<Node>();
 
             var tmpResult = new StringBuilder();
             using (var storage = new StorageContext(StorageContext.constr))
             {
-                var objects = storage.actualDbObjects.Where(O => O.Type == "view" || O.Type == "table").ToList();
+                var objects = storage.actualDbObjects.ToList();//Where(O => O.Type == "view" || O.Type == "table").ToList();
                 var count = objects.Count();
-                
+                //Trace.WriteLine($"objects.Count(): {count}");
 
                 BreadthFirstSearch demo = new BreadthFirstSearch(count);
                 
@@ -38,7 +40,8 @@ namespace DatabaseDetective
                     demo.AddV(link.id1 - 1, link.id2 - 1);
                 }
                 
-                var path = demo.FindPath(startItemId - 1, searchItemId - 1);
+                var path = demo.FindPath(startItemId-1, searchItemId-1);
+                //Trace.WriteLine($"actual startItemId: {startItemId-1} actual searchItemId: {searchItemId-1} ");
 
                 if (path.Any())
                 {

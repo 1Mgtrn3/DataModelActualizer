@@ -82,37 +82,6 @@ namespace DatabaseDetective
 
 
 
-        //public void DownloadPackageNames() {
-
-
-
-        //    using (OracleConnection connect = new OracleConnection())
-        //    {
-        //        connect.ConnectionString = connectionString;
-        //        connect.Open();
-        //        var command = connect.CreateCommand();
-
-        //        string query = ConfigurationManager.AppSettings["packageNamesQuery"];
-        //        command.CommandText = query.ToUpper();
-
-        //        using (var reader = command.ExecuteReader())
-        //        {
-        //            while (reader.Read())
-        //            {
-        //                packageNames.Add(Convert.ToString(reader["NAME"]));
-                        
-
-
-        //            }
-                   
-
-        //        }
-
-
-        //        connect.Close();
-        //    }
-
-
-        //}
+       
     }
 }
