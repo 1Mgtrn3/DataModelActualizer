@@ -69,8 +69,8 @@ namespace DatabaseDetective
             {
                 GraphControl gControl = new GraphControl();
 
-                var output = gControl.CreateTreeJson(gControl.converter.ConvertNametoID(tbTreeHead.Text), StringToInt(tbDepth.Text), Indented: true);
-                tbOutput.AppendText($"PRINTING A TREE STARTING FROM {tbTreeHead.Text} WITH DUPLICATES\r\n");
+                var output = gControl.CreateTreeJson(gControl.converter.ConvertNametoID(tbTreeHead.Text.ToUpper()), StringToInt(tbDepth.Text), Indented: true);
+                tbOutput.AppendText($"PRINTING A TREE STARTING FROM {tbTreeHead.Text.ToUpper()} WITH DUPLICATES\r\n");
                 tbOutput.AppendText(output);
                 tbOutput.AppendText("========================\r\n");
 
